@@ -1,13 +1,13 @@
-# DToL Tracking script
+# Tracking script for status of Genebuild Annotations
 
-A script to check the status of Ensembl annotation on the DToL assemblies. It can also produce a list of databases that need to be added to the DToL projects page, https://projects.ensembl.org/darwin-tree-of-life/.
+A script to check the status of Ensembl annotation on assemblies.
 
 
 ## To run
 
 **python3 dtol_tracking.py -h**
 
-usage: `dtol_tracking.py [-h] [--summary SUMMARY] [--in_progress IN_PROGRESS] [--unannotated UNANNOTATED] [--projects_missing PROJECTS_MISSING]`
+usage: `genebuild_tracking.py [-h] [--summary SUMMARY] [--in_progress IN_PROGRESS] [--unannotated UNANNOTATED] [--projects_missing PROJECTS_MISSING]`
 
 Track status of DToL assemblies in Ensembl.
 
